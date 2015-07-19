@@ -24,9 +24,3 @@ scrape(sub, target, function (err, tracks) {
 
 })
 
-// scrape('Music', 100, function (err, tracks) {
-//   if (err) {
-//     throw err
-//   }
-//   console.log(tracks)
-// })
