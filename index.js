@@ -13,7 +13,7 @@ function getTracks (sub, after, cb) {
 
     var tracks = knownProviderPosts.map(function (post) {
 
-      var parsedTitle = post.data.title.match(/^(.+) - (.+) \[(.+)\]?/)
+      var parsedTitle = post.data.title.match(/^(.+) - (.+) \[(.+)\]/)
 
       if (!parsedTitle) {
         return false
