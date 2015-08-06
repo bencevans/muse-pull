@@ -23,7 +23,7 @@ scrape(sub, target, function (err, tracks) {
 //     url: 'https://www.youtube.com/watch?v=G90ngH2anxQ',
 //     track: 'Iron Maiden',
 //     artist: 'Hallowed Be Thy Name',
-//     tags: 'Heavy Metal]'
+//     tags: 'Heavy Metal'
 //   },
 //   {
 //     id: '3dtvnw',
@@ -31,7 +31,7 @@ scrape(sub, target, function (err, tracks) {
 //     url: 'https://www.youtube.com/watch?v=hbe3CQamF8k',
 //     track: 'Massive Attack',
 //     artist: 'Angel',
-//     tags: 'trip-hop]'
+//     tags: 'trip-hop'
 //   },
 // ...
 // ]
