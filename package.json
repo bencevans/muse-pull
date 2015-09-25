@@ -1,6 +1,6 @@
 {
   "name": "muse-pull",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Gather posts with resolvable music from subreddits.",
   "main": "app.js",
   "scripts": {
