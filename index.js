@@ -23,8 +23,8 @@ function getTracks (sub, after, cb) {
         id: post.data.id,
         title: post.data.title,
         url: post.data.url,
-        track: parsedTitle[1],
-        artist: parsedTitle[2],
+        track: parsedTitle[2],
+        artist: parsedTitle[1],
         tags: parsedTitle[3]
       }
     }).filter(function (track) {
