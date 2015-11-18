@@ -1,10 +1,12 @@
-# Muse Pull
+# muse-pull
 
-Gather posts with resolvable music from subreddits.
+> Gather posts with resolvable music from subreddits.
 
-[Reddit API Rules](https://github.com/reddit/reddit/wiki/API)
+## Install
 
-## Example
+    $ npm install --save muse-pull
+
+## Usage
 
 ```js
 var scrape = require('muse-pull')
@@ -21,22 +23,26 @@ scrape(sub, target, function (err, tracks) {
 //   { id: '3dusty',
 //     title: 'Iron Maiden - Hallowed Be Thy Name [Heavy Metal]',
 //     url: 'https://www.youtube.com/watch?v=G90ngH2anxQ',
-//     track: 'Iron Maiden',
-//     artist: 'Hallowed Be Thy Name',
+//     track: 'Hallowed Be Thy Name',
+//     artist: 'Iron Maiden',
 //     tags: 'Heavy Metal'
 //   },
 //   {
 //     id: '3dtvnw',
 //     title: 'Massive Attack - Angel [trip-hop]',
 //     url: 'https://www.youtube.com/watch?v=hbe3CQamF8k',
-//     track: 'Massive Attack',
-//     artist: 'Angel',
+//     track: 'Angel',
+//     artist: 'Massive Attack',
 //     tags: 'trip-hop'
 //   },
 // ...
 // ]
 ```
 
+## Related
+
+* [Reddit API Rules](https://github.com/reddit/reddit/wiki/API)
+
 ## Licence
 
-MIT
+MIT © [Ben Evans](http://bensbit.co.uk)
